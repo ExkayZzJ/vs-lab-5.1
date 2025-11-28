@@ -2,7 +2,7 @@ CREATE TABLE institutes (
     id SERIAL PRIMARY KEY,
     name VARCHAR(1024) NOT NULL
 );
-CREATE TABLE groups (
+CREATE TABLE groups1 (
     id SERIAL PRIMARY KEY,
     name VARCHAR(2048) NOT NULL,
     short_name VARCHAR(64) UNIQUE NOT NULL,
